@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap');
+
+@font-face {
+    font-family: testFont;
+    src: url(../fonts/Macondo-Regular.ttf);
+  }
+
+
+/* *{
+    font-family: 'Macondo';
+} */
 
 .container{
     background-color: red;
 }
 
 .test{
-    color: pink;
+    color: rgb(10, 36, 205);
+    font-family: 'testFont';
+}
+
+.font-2{
+    font-family: 'Koulen';
 }
 
 
