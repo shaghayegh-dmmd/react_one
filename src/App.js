@@ -6,8 +6,7 @@ import './styles/App.css';
 const App = () => {
   return (
     <div className='container'>
-      <Header />
-      <Footer/>
+      <Header name='shaghayegh' address='tehran' pelak={3} date={1401} />
     </div>
   )
 };
