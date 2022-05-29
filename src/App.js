@@ -1,19 +1,29 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Body from './components/Body';
+import Cat from './components/Cat';
+import Dog from './components/Dog';
 import img from './img.png';
 import './styles/App.css';
 
 const App = () => {
+
+const shaghayegh = (name) =>{
+  alert(name);
+}
+
+const clickone = (e) =>{
+  console.log(e);
+}
+
+
+
+
   return (
     <div className='container'>
-      <Header name='shaghayegh' address='tehran' pelak={3} date={1401} />
-      <h4 className='test'>test test test</h4>
-      <h3 className='font-2'>font 2</h3>
-      <div>
-        <img src={img} alt='img' />
-      </div>
-
+      { <button className='btn' onClick={() => shaghayegh("sterttr")}> click test </button>}
+      <Body name = {"shaghayegh"} age = {3} />
     </div>
   )
 };
